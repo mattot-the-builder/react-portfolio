@@ -22,12 +22,12 @@ export default function Home () {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <title>Mattot Portfolio</title>
+      <title>Mattot </title>
 
-      <main className='bg-white dark:bg-gray-900 md:px-20 text-gray-900 dark:text-white px-10'>
+      <main className='font-poppins bg-white dark:bg-gray-900 md:px-20 text-gray-900 dark:text-white px-10'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons'>mattot.co</h1>
+            <h1 className='text-xl font-burtons'>mattot.me</h1>
             <ul className='flex items-center'>
               {darkMode
                 ? (
@@ -44,7 +44,7 @@ export default function Home () {
                   )}
               <li>
                 <a
-                  className='bg-gradient-to-r from-cyan-500  to-teal-500  text-white px-4 py-2 rounded-md ml-8'
+                  className='bg-gradient-to-r from-cyan-500  to-teal-500  hover:bg-gradient-to-l text-white px-4 py-2 rounded-md ml-8'
                   href='#'
                 >
                   Resume
@@ -54,8 +54,8 @@ export default function Home () {
           </nav>
 
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-400 font-medium md:text-6xl'>
-              Mattot the Builder
+            <h2 className='font-burtons text-5xl py-2 text-teal-400 font-medium md:text-6xl'>
+              Mattot the Builder 🚀
             </h2>
             <h3 className='text-2xl py-2 md:text-3xl'>
               Full Stack Web Developer.

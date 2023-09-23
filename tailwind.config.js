@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
         burtons: 'burtons'
       },
       backgroundImage: {
